@@ -6,7 +6,14 @@ dịch → đọc giọng Việt → xuất video có phụ đề. Nhận dạng
 
 ## Tải về
 
-Vào mục **[Releases](../../releases/latest)** → tải `VoxTrend-v4.0.1.zip` (~217 MB).
+Vào mục **[Releases](../../releases/latest)** (bản mới nhất: **4.2.0**):
+
+| Máy của bạn | Tải gì |
+|---|---|
+| **Chưa cài VoxTrend lần nào** | `VoxTrend-v<số bản>.zip` — gói đầy đủ (~217 MB), rồi làm theo **Cài nhanh** bên dưới |
+| **Đã cài rồi** | Không cần tải tay: mở app → **Cập nhật ngay** (hoặc Trợ giúp → Kiểm tra cập nhật). App tự chọn gói vá nhỏ (`VoxTrend-patch-…zip`, ~47 MB) hoặc gói đầy đủ, giữ nguyên giọng, model, khoá API và dự án |
+
+Tệp `VoxTrend-patch-…zip` chỉ dành cho app tự cập nhật — **máy mới đừng tải tệp này**.
 
 ## Cài nhanh
 
