@@ -1,39 +1,35 @@
 # VoxTrend — lồng tiếng video sang tiếng Việt
 
-Ứng dụng Windows: tải video (YouTube, Douyin hoặc file trên máy) → nghe-chép lời →
+Ứng dụng Windows (và Mac chip M — thử nghiệm): tải video (YouTube, Douyin hoặc file trên máy) → nghe-chép lời →
 dịch → đọc giọng Việt → xuất video có phụ đề. Nhận dạng giọng nói và giọng đọc chạy
 **ngay trên máy bạn**; bước dịch dùng khóa Gemini của chính bạn hoặc dịch thủ công.
 
 ## Tải về
 
-Vào mục **[Releases](../../releases/latest)** (bản mới nhất: **4.3.2**):
+Vào mục **[Releases](../../releases/latest)** (bản mới nhất: **4.5.0**):
 
 | Máy của bạn | Tải gì |
 |---|---|
-| **Chưa cài VoxTrend lần nào** | `VoxTrend-v<số bản>.zip` — gói đầy đủ (~217 MB), rồi làm theo **Cài nhanh** bên dưới |
-| **Đã cài rồi** | Không cần tải tay: mở app → **Cập nhật ngay** (hoặc Trợ giúp → Kiểm tra cập nhật). App tự chọn gói vá nhỏ (`VoxTrend-patch-…zip`, ~47 MB) hoặc gói đầy đủ, giữ nguyên giọng, model, khoá API và dự án |
+| **Windows, chưa cài lần nào** | `VoxTrend-v<số bản>.zip` — gói đầy đủ (~217 MB), rồi làm theo **Cài nhanh** bên dưới |
+| **Windows, đã cài rồi** | Không cần tải tay: mở app → **Cập nhật ngay** (hoặc dải «↑ Cập nhật» trên tên tài khoản). App tự chọn gói vá nhỏ hoặc gói đầy đủ, giữ nguyên giọng, model, khoá API và dự án |
+| **Mac chip M1–M4 (thử nghiệm)** | `VoxTrend-mac-arm64-v<số bản>.zip` → [HUONG_DAN_CAI_DAT_MAC.md](HUONG_DAN_CAI_DAT_MAC.md). Mac Intel chưa hỗ trợ |
 
 Tệp `VoxTrend-patch-…zip` chỉ dành cho app tự cập nhật — **máy mới đừng tải tệp này**.
 
-## Cài nhanh
+## Cài nhanh (Windows)
 
-Máy cần: Windows 10/11 64-bit, ~10 GB trống, có mạng. Card NVIDIA không bắt buộc.
+Máy cần: Windows 10/11 64-bit, ~5 GB trống (thêm ~4 GB nếu cài card NVIDIA), có mạng. Không cần cài Python hay
+FFmpeg trước — app tự cài.
 
-1. Mở PowerShell, cài công cụ (mỗi dòng một lần), xong đóng và mở lại PowerShell:
-   ```
-   winget install -e --id Python.Python.3.12
-   winget install -e --id Gyan.FFmpeg
-   ```
-2. Giải nén zip → thư mục `VoxTrend\`.
-3. Đúp chuột lần lượt, mỗi file **đợi tới dòng XONG** rồi mới đóng:
-   - `Cai dat giong VieNeu.bat` — **bắt buộc**
-   - `Cai dat Whisper ASR.bat` — **bắt buộc**
-   - `Cai dat ASR tieng Trung (Paraformer).bat` — nếu làm video tiếng Trung
-   - `Cai dat tinh nang Douyin.bat` — nếu tải video Douyin
-   - `Cai dat GPU NVIDIA (tuy chon).bat` — nếu máy có card NVIDIA
-4. Mở `VoxTrend.exe`.
+1. Giải nén zip ra **thư mục ngắn**, ví dụ `D:\VoxTrend`.
+2. Đúp chuột **`VoxTrend.exe`** → Windows hỏi «Windows protected your PC» → **More info → Run anyway**.
+3. Trình cài mở ra → tick phần tùy chọn nếu cần (Paraformer cho phim Trung, Douyin, card NVIDIA) →
+   **Bắt đầu cài đặt**. 15–30 phút tuỳ mạng.
 
-Hướng dẫn đầy đủ và xử lý lỗi: [HUONG_DAN_CAI_DAT.md](HUONG_DAN_CAI_DAT.md) (cũng có sẵn trong zip).
+Lỗi giữa chừng: bấm **Thử lại** ở đúng bước đó. Cài sau / cài lại: **Trợ giúp → Cài thêm tính năng**.
+Gửi lỗi: **Trợ giúp → Lưu nhật ký để gửi hỗ trợ**.
+
+Hướng dẫn đầy đủ và bảng xử lý lỗi: [HUONG_DAN_CAI_DAT.md](HUONG_DAN_CAI_DAT.md) (cũng có sẵn trong zip).
 
 ## Không có khóa API?
 
