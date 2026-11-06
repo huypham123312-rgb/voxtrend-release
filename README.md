@@ -6,7 +6,7 @@ dịch → đọc giọng Việt → xuất video có phụ đề. Nhận dạng
 
 ## Tải về
 
-Vào mục **[Releases](../../releases/latest)** (bản mới nhất: **4.5.3**):
+Vào mục **[Releases](../../releases/latest)** (bản mới nhất: **4.6.1**):
 
 | Máy của bạn | Tải gì |
 |---|---|
@@ -15,6 +15,16 @@ Vào mục **[Releases](../../releases/latest)** (bản mới nhất: **4.5.3**)
 | **Mac chip M1–M4 (thử nghiệm)** | `VoxTrend-mac-arm64-v<số bản>.zip` → [HUONG_DAN_CAI_DAT_MAC.md](HUONG_DAN_CAI_DAT_MAC.md). Mac Intel chưa hỗ trợ |
 
 Tệp `VoxTrend-patch-…zip` chỉ dành cho app tự cập nhật — **máy mới đừng tải tệp này**.
+
+## Mã kích hoạt (từ bản 4.6)
+
+App cần **mã kích hoạt** dạng `VXT-XXXXX-XXXXX-XXXXX-XXXXX`:
+
+- **Dùng thử 3 ngày** hoặc mua tại [trendiora.com/long-tieng-video](https://trendiora.com/long-tieng-video).
+- Mã của bạn nằm ở trang [Hồ sơ](https://trendiora.com/tai-khoan) (và trong email sau khi mua). Mở app → dán mã vào ô
+  «Mã kích hoạt».
+- Chưa có mã thì các nút xử lý bị khoá; app vẫn mở, **dự án và video đã xuất còn nguyên**.
+- Đổi máy: trong app bấm **«Ngừng dùng trên máy này»**, rồi dán mã ở máy mới.
 
 ## Cài nhanh (Windows)
 
