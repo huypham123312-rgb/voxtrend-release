@@ -43,10 +43,11 @@ Hướng dẫn đầy đủ và bảng xử lý lỗi: [HUONG_DAN_CAI_DAT.md](HU
 
 ## Không có khóa API?
 
-- **Khóa Gemini miễn phí** (khuyên dùng): <https://aistudio.google.com/apikey> → Create API key →
-  trong app vào trang **Dịch thuật**, chọn **Google Gemini**, dán khóa, Lưu. Chỉ cần tài khoản Google.
-- **Không dùng API:** trang **Dịch thuật** → **Dịch thủ công**. App dừng sau bước nghe-chép và
-  hướng dẫn 3 bước nhờ ChatGPT/Gemini trên web dịch giúp, rồi bấm **"Đã dịch xong, tiếp tục"**.
+- **Khóa Gemini trả phí** (khuyên dùng): <https://aistudio.google.com/apikey> → Create API key trên dự án
+  **đã bật thanh toán (Billing)** — khóa gói miễn phí **không dùng được** → trong app vào trang **Dịch thuật**,
+  chọn **Google Gemini**, dán khóa, Lưu.
+- **Không dùng API:** trang **Dịch thuật** → **Dịch thủ công**. App dừng sau bước nghe-chép; nhờ ChatGPT/Gemini
+  trên web dịch giúp rồi bấm **«Dán bản dịch…»**, dán nguyên câu trả lời (hoặc chọn tệp phụ đề .srt đã dịch).
 - Chế độ "Đọc chữ trên hình" (video không lời) bắt buộc có khóa Gemini.
 
 Khóa API là của riêng bạn — không gửi cho người khác, không dán lên mạng.
