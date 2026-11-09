@@ -6,7 +6,7 @@ dịch → đọc giọng Việt → xuất video có phụ đề. Nhận dạng
 
 ## Tải về
 
-Vào mục **[Releases](../../releases/latest)** (bản mới nhất: **4.6.3**):
+Vào mục **[Releases](../../releases/latest)** (bản mới nhất: **4.7.0**):
 
 | Máy của bạn | Tải gì |
 |---|---|
@@ -33,7 +33,7 @@ FFmpeg trước — app tự cài.
 
 1. Giải nén zip ra **thư mục ngắn**, ví dụ `D:\VoxTrend`.
 2. Đúp chuột **`VoxTrend.exe`** → Windows hỏi «Windows protected your PC» → **More info → Run anyway**.
-3. Trình cài mở ra → tick phần tùy chọn nếu cần (Paraformer cho phim Trung, Douyin, card NVIDIA) →
+3. Trình cài mở ra → mặc định cài đủ mọi phần một lần (giọng đọc, nhận dạng, Douyin…) →
    **Bắt đầu cài đặt**. 15–30 phút tuỳ mạng.
 
 Lỗi giữa chừng: bấm **Thử lại** ở đúng bước đó. Cài sau / cài lại: **Trợ giúp → Cài thêm tính năng**.
