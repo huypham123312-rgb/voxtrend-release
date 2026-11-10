@@ -6,7 +6,7 @@ dịch → đọc giọng Việt → xuất video có phụ đề. Nhận dạng
 
 ## Tải về
 
-Vào mục **[Releases](../../releases/latest)** (bản mới nhất: **4.9.0**):
+Vào mục **[Releases](../../releases/latest)** (bản mới nhất: **4.9.2**):
 
 | Máy của bạn | Tải gì |
 |---|---|
