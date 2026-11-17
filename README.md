@@ -6,7 +6,7 @@ dịch → đọc giọng Việt → xuất video có phụ đề. Nhận dạng
 
 ## Tải về
 
-Vào mục **[Releases](../../releases/latest)** (bản mới nhất: **4.9.4**):
+Vào mục **[Releases](../../releases/latest)** (bản mới nhất: **5.1.0**):
 
 | Máy của bạn | Tải gì |
 |---|---|
@@ -15,6 +15,12 @@ Vào mục **[Releases](../../releases/latest)** (bản mới nhất: **4.9.4**)
 | **Mac chip M1–M4 (thử nghiệm)** | `VoxTrend-mac-arm64-v<số bản>.zip` → [HUONG_DAN_CAI_DAT_MAC.md](HUONG_DAN_CAI_DAT_MAC.md). Mac Intel chưa hỗ trợ |
 
 Tệp `VoxTrend-patch-…zip` chỉ dành cho app tự cập nhật — **máy mới đừng tải tệp này**.
+
+## Có gì mới
+
+**5.1.0:** mục mới **Băm video** — cắt video thành nhiều phần (9:16 / 16:9, lật, che vùng, phụ đề
+riêng từng phần) và **AI chọn cảnh hay làm short ~1:30**. Điểm mới mọi phiên bản: **[CHANGELOG.md](CHANGELOG.md)**
+(trong app: Trợ giúp → «Lịch sử cập nhật»).
 
 ## Mã kích hoạt (từ bản 4.6)
 
