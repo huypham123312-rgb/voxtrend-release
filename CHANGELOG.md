@@ -5,7 +5,7 @@ Bấm «Cập nhật ngay» trong app để lên bản mới nhất. Trong app: 
 ## v5.1.0 · 17/11/2026
 
 - Mục mới «Băm video» (thanh bên, dưới Tóm tắt phim; hoặc Trình chỉnh sửa → Xuất video → «Băm video…»; hoặc chuột phải thẻ dự án): cắt video đã lồng tiếng hoặc tệp MP4 bất kỳ thành nhiều phần theo số phút, mỗi phần kèm phụ đề riêng. Mốc cắt tự lùi vào chỗ ngắt câu / chỗ lặng, không cắt ngang lời thoại.
-- Đổi khung 9:16 (dọc) hoặc 16:9: cắt giữa, nền mờ hay viền đen; lật ngang; chọn tiếng (giọng lồng, giọng + nhạc nền, tiếng gốc). App cảnh báo khi cắt giữa / lật sẽ làm hỏng chữ đã in trên hình.
+- Đổi khung 9:16 (dọc) hoặc 16:9: cắt giữa, nền mờ hay viền đen; lật ngang; chọn tiếng (lồng tiếng Việt, tiếng gốc, tắt tiếng, hoặc tắt tiếng + tệp WAV rời). App cảnh báo khi cắt giữa / lật sẽ làm hỏng chữ đã in trên hình.
 - Che vùng trên hình khi băm: kéo chuột vẽ ô Làm mờ / Ô vuông / Phủ đen (logo, chữ cũ…) trên một khung, áp cho mọi phần.
 - «Cảnh hay làm short»: AI xem phim một lần (khoá Gemini của bạn, có ước tính tiền trước), đánh dấu cảnh hôn, tình tứ, cao trào, vả mặt, đánh nhau, buồn, hài… rồi đề xuất 3–8 short ~1 phút 30 — liền mạch quanh một cảnh hoặc ghép nhiều cảnh cùng loại, không short nào dùng chung đoạn phim. Đổi loại cảnh / số video không tốn thêm tiền; bỏ đề xuất không ưng để lấy cảnh khác. Cảnh không có người (cây, trời, đồ vật) tự bị bỏ.
 - Trợ giúp → «Lịch sử cập nhật»: xem lại điểm mới của các phiên bản, kèm ngày phát hành.
