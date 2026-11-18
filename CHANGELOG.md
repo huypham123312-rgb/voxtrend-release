@@ -2,6 +2,11 @@
 
 Bấm «Cập nhật ngay» trong app để lên bản mới nhất. Trong app: Trợ giúp → «Lịch sử cập nhật».
 
+## v5.1.1 · 18/11/2026
+
+- Băm video → «Cảnh hay làm short»: chọn «Độ dài mỗi short» từ 30 giây tới 10 phút (trước cố định 1 phút 30) và tới 50 short. App báo ngay phim này ra được tối đa bao nhiêu short với loại cảnh và độ dài đang chọn.
+- Bấm Dừng lúc app đang chuẩn bị phim (dò cảnh) cho Băm cảnh / Tóm tắt phim: dừng ngay, không phải đợi hết phim.
+
 ## v5.1.0 · 17/11/2026
 
 - Mục mới «Băm video» (thanh bên, dưới Tóm tắt phim; hoặc Trình chỉnh sửa → Xuất video → «Băm video…»; hoặc chuột phải thẻ dự án): cắt video đã lồng tiếng hoặc tệp MP4 bất kỳ thành nhiều phần theo số phút, mỗi phần kèm phụ đề riêng. Mốc cắt tự lùi vào chỗ ngắt câu / chỗ lặng, không cắt ngang lời thoại.

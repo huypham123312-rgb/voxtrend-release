@@ -6,7 +6,7 @@ dịch → đọc giọng Việt → xuất video có phụ đề. Nhận dạng
 
 ## Tải về
 
-Vào mục **[Releases](../../releases/latest)** (bản mới nhất: **5.1.0**):
+Vào mục **[Releases](../../releases/latest)** (bản mới nhất: **5.1.1**):
 
 | Máy của bạn | Tải gì |
 |---|---|
@@ -18,6 +18,7 @@ Tệp `VoxTrend-patch-…zip` chỉ dành cho app tự cập nhật — **máy m
 
 ## Có gì mới
 
+**5.1.1:** short AI chọn được độ dài 30 giây – 10 phút, tới 50 short; nút Dừng dừng ngay lúc chuẩn bị phim.
 **5.1.0:** mục mới **Băm video** — cắt video thành nhiều phần (9:16 / 16:9, lật, che vùng, phụ đề
 riêng từng phần) và **AI chọn cảnh hay làm short ~1:30**. Điểm mới mọi phiên bản: **[CHANGELOG.md](CHANGELOG.md)**
 (trong app: Trợ giúp → «Lịch sử cập nhật»).
